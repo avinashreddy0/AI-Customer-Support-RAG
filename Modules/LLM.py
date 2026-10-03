@@ -5,7 +5,7 @@ from config import LLM_MODEL
 
 @st.cache_resource
 def llm_model():
-    pipe = pipeline('text-generation',model=LLM_MODEL,max_new_tokens = 100,do_sample = False,temperature = 0.,7return_full_text = False)
+    pipe = pipeline('text-generation',model=LLM_MODEL,max_new_tokens = 100,do_sample = False,temperature = 0.7,return_full_text = False)
 
     llm = HuggingFacePipeline(pipeline=pipe)
 
