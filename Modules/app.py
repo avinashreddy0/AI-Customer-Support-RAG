@@ -9,7 +9,7 @@ st.set_page_config(page_title='AI Customer Support',page_icon='🛃')
 st.header("AI Customer Support.")
 
 if "messages" not in st.session_state:
-    st.session_state.messages = []
+    st.session_statem.essages = []
 
 for message in st.session_state.messages:
     with st.chat_message(message['role']):
