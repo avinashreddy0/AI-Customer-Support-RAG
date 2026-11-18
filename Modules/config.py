@@ -9,6 +9,6 @@ CHROMA_PATH = "chroma_db"
 
 COLLECTION_NAME = "customer_support"
 
-TOP_K = 3
+TOP_K = 5
 
 LLM_MODEL = "Qwen/Qwen2.5-3B-Instruct"
